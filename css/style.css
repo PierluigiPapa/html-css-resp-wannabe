@@ -135,6 +135,8 @@ img {
     }
  }
 
+ /* // Version Desktop // */
+
  /* Version Tablet */
 
  @media screen and (max-width: 768px) {
@@ -142,6 +144,10 @@ img {
         width: 100%;  
     }
  }
+
+ /* // Version Tablet // */
+
+ /* Version Mobile */
 
  @media screen and (max-width: 480px) {
     .lessons .row {
@@ -160,6 +166,7 @@ img {
         margin-bottom: 0;
         padding: 50px;
     }
+
     .steps .row {
         flex-direction: column;
         align-content: center;
@@ -168,6 +175,10 @@ img {
     .steps .col {
         width: 100%;
         padding-bottom: 40px;
+    }
+
+    .why-us {
+        background-color: #222222;
     }
   
     .why-us .row {
@@ -183,8 +194,6 @@ img {
     .why-us .col-right {
         width: 100%;
     }
-    
-    body .why-us {
-        background-color: #222222;
-    }
 }
+
+/* // Version Mobile // */
