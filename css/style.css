@@ -128,10 +128,17 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* From 1140 to 0 */
+ /* Version Desktop */
  @media screen and (max-width: 1140px) {
     .container {
-        width: 100%;
-        margin: 0 auto;
+        width: 100%;  
+    }
+ }
+
+ /* Version Tablet */
+
+ @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;  
     }
  }
