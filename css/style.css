@@ -142,3 +142,49 @@ img {
         width: 100%;  
     }
  }
+
+ @media screen and (max-width: 480px) {
+    .lessons .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .lessons .col {
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    
+    .steps,
+    .why-us {
+        margin-bottom: 0;
+        padding: 50px;
+    }
+    .steps .row {
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .steps .col {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+  
+    .why-us .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+    
+    body .why-us {
+        background-color: #222222;
+    }
+}
